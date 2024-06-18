@@ -1,0 +1,28 @@
+# Environnement virtuel
+venv/
+env/
+.venv/
+.env/
+
+# Fichiers de configuration spécifiques à l'éditeur
+.idea/
+.vscode/
+
+# Fichiers Python
+*.pyc
+__pycache__/
+
+# Fichiers de log
+*.log
+
+# Fichiers de base de données locales (SQLite, non nécessaires pour PostgreSQL)
+# db.sqlite3
+
+# Autres fichiers et dossiers à ignorer
+staticfiles/
+media/
+
+# Fichiers de configuration sensibles
+*.env
+.env.*
+
