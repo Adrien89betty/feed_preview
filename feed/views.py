@@ -4,7 +4,7 @@ from .forms import ImageForm
 
 def index(request):
     """Home page for feed."""
-    images = Image.objects.all().order_by('-uploaded_at')
+    # images = Image.objects.all().order_by('-uploaded_at')
     return render(request, 'feed/index.html')
 
 # def upload_image(request):
